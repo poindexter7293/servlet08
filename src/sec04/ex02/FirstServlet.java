@@ -1,4 +1,4 @@
-package sec04.ex01;
+package sec04.ex02;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-//@WebServlet("/first")
+@WebServlet("/first")
 public class FirstServlet extends HttpServlet{
 
 	@Override
